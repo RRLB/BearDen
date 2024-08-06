@@ -1,0 +1,31 @@
+﻿body {
+  color: white;
+  font-family: "Maximum Impact", sans-serif;
+}
+
+/* Target all scrollbars */
+* {
+  scrollbar-width: auto; /* "auto" or "thin" or "none" */
+  scrollbar-color: rgba(0, 0, 0, 0.6) transparent; /* thumb color, track color */
+}
+
+/* Firefox specific styling */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: rgba(0, 0, 0, 0.6) transparent;
+}
+
+/* Webkit (Chrome, Safari) specific styling */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  border: transparent;
+}

@@ -1,0 +1,23 @@
+﻿.detailsBody {
+  padding: 10px;
+
+  font-size: 12px;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.row {
+  display: flex;
+
+  /* flex-wrap: wrap; */
+}
+
+/* .col-xs-12,
+.col-sm-6,
+.col-lg-2 {
+} */
+.span {
+  /* padding-bottom: 100px !important; */
+  line-height: 2em;
+}
