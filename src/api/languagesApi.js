@@ -1,5 +1,4 @@
 ﻿import axios from "axios";
-import { LANGAPIURL, LANGAPIKEY } from "../config";
 
 export class Languages {
   static async fetchLanguages(languageCode, handleError, setError) {
