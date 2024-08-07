@@ -16,7 +16,7 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 
-export function Component() {
+export function FooterJazz() {
   return (
     <Footer container>
       <div className="w-full">
