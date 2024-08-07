@@ -13,6 +13,7 @@ import { SearchBar } from "./components/SearchBar/SearchBar";
 import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary";
 import { ErrorMessage } from "./components/ErrorMessage/ErrorMessage";
 import { TVShowListDetails } from "./components/TVShowListDetails/TVShowListDetails";
+import { FooterJazz } from "./components/FooterJazz/FooterJazz";
 
 // TVShowAPI.fetchRecommended(1402);//test to call componenet, then function, to which i pass the params tv show id that returns recomendations based on the id
 export function App() {
@@ -203,6 +204,9 @@ export function App() {
               />
             ) /* //check its not undefined */
           }
+        </div>
+        <div className={s.footerJazz}>
+          <FooterJazz />
         </div>
       </div>
     </ErrorBoundary>
