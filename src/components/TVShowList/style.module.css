@@ -3,6 +3,7 @@
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 60px;
   font-size: 28px;
+  opacity: 0.8;
 }
 .list:hover {
   overflow-x: overlay;

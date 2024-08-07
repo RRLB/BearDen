@@ -22,4 +22,5 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  opacity: 0.8;
 }

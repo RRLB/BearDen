@@ -13,6 +13,7 @@
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
+  opacity: 0.8;
 }
 .title {
   font-size: 25px;
@@ -22,7 +23,7 @@
   position: absolute;
   top: 0;
   left: 0;
-
+  opacity: 0.8;
   z-index: 2;
 }
 .subtitle {
@@ -30,8 +31,10 @@
   margin-left: 7px;
   white-space: nowrap;
   padding-bottom: 25px;
+  opacity: 0.8;
 }
 .miniSubtitle {
   margin-left: 7px;
   white-space: nowrap;
+  opacity: 0.8;
 }
