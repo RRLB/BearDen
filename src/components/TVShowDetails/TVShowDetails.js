@@ -5,7 +5,6 @@ export function TVShowDetails({ tvShow }) {
   function roundToNearestHalfOrWhole(tvShow) {
     let roundedNumber = 0;
     const averageRating = tvShow.vote_average / 2;
-    console.log(averageRating);
     const wholeNumber = Math.floor(averageRating);
     const decimal = averageRating - wholeNumber;
 
@@ -20,7 +19,6 @@ export function TVShowDetails({ tvShow }) {
   }
 
   const rating = roundToNearestHalfOrWhole(tvShow);
-  console.log(rating);
 
   return (
     <div className={s.container}>

@@ -1,7 +1,6 @@
 ﻿import s from "./style.module.css";
 
 export function TVShowListDetails({ tvShowListDetails, tvShowLanguages }) {
-  console.log(tvShowLanguages);
   if (tvShowListDetails) {
     const formatKey = (key) => {
       //replace _ with " "

@@ -2,7 +2,6 @@
 
 export class Languages {
   static async fetchLanguages(languageCode, handleError, setError) {
-    console.log(languageCode);
     try {
       if (languageCode) {
         const optionsLanguages = {
