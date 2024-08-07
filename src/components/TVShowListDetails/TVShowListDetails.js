@@ -43,7 +43,7 @@ export function TVShowListDetails({ tvShowListDetails, tvShowLanguages }) {
       <div className={s.detailsBody}>
         <div className="row">
           {updatedEntries.map(([key, value], index) => (
-            <div key={index} className="col-xs-12 col-sm-6 col-lg-4 col-xl-2">
+            <div key={index} className="col-xs-12 col-sm-6">
               <span className={s.span}>
                 {formatKey(key)}: {value + " "}
               </span>
