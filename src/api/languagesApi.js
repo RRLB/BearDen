@@ -27,8 +27,6 @@ export class Languages {
         };
 
         const languageNames = getLanguageNames(languageCode, response.data);
-        console.log(languageNames);
-        console.log(response.data);
 
         return languageNames;
       }
